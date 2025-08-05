@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Eventos Escolares</title>
 </head>
-<body>
-    <!--Tega header server para definir um cabeçalho de uma pagina web-->
-    <header>
 
+<body>
+    <!--Teg header server para definir um cabeçalho de uma pagina web-->
+    <header>
+        <!-- Logo da cidade adicionado aqui -->
+        <img src="imagens/download.jpg" alt="Logo da cidade" class="logo">
+        <div class="container">
+            <h1>Eventos Escolares</h1>
+            <p>Os melhores momentos dos nossos alunos, em fotos e vídeos!</p>
+            <p class="user-info" id="user-info"></p>
+            <div id="auth-controls" class="auth-controls" style="display:none;">
+                <button id="logout-button">Sair</button>
+            </div>
+            <!-- Filtro de escolas adicionado aqui -->
+            <div class="filter-container">
+                <label for="scholl">Filetrar por escola</label>
+                <select name="" id="scholl-filter">
+                    <option value="">EMEFI – JULIA MARIA DE CARVALHO E SILVA</option>
+                    <option value="">EMEF – INSTITUTO JOAQUINA DE PAIVA GADELHA</option>
+                    <option value="">EMEFI - VEREADOR JOÃO GONÇALVES DE SOUSA</option>
+                </select>
+
+            </div>
+
+
+        </div>
     </header>
 </body>
+
 </html>
